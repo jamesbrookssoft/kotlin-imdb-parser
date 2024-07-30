@@ -1,4 +1,4 @@
-group 'com.preslavrachev'
+group 'com.jamesbrookssoft'
 version '1.0-SNAPSHOT'
 
 buildscript {

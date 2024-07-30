@@ -1,8 +1,8 @@
-package com.preslavrachev.imdbparser
+package com.jamesbrookssoft.imdbparser
 
-import com.preslavrachev.imdbparser.model.Movie
-import com.preslavrachev.imdbparser.model.MovieRef
-import com.preslavrachev.imdbparser.model.Plot
+import com.jamesbrookssoft.imdbparser.model.Movie
+import com.jamesbrookssoft.imdbparser.model.MovieRef
+import com.jamesbrookssoft.imdbparser.model.Plot
 import org.jsoup.Jsoup
 import rx.Observable
 import rx.schedulers.Schedulers
@@ -10,7 +10,7 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 /**
- * Created by preslavrachev on 11/06/16.
+ * Created by jamesbrookssoft on 11/06/16.
  */
 class ImdbParser {
 

@@ -1,4 +1,4 @@
-group 'com.preslavrachev'
+group 'com.jamesbrookssoft'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -6,7 +6,7 @@ apply plugin: 'kotlin'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.preslavrachev.imdbparser.cli.MainKt'
+        attributes 'Main-Class': 'com.jamesbrookssoft.imdbparser.cli.MainKt'
     }
 
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }

@@ -1,9 +1,9 @@
-package com.preslavrachev.imdbparser.model
+package com.jamesbrookssoft.imdbparser.model
 
 import java.time.LocalDate
 
 /**
- * Created by preslavrachev on 11/06/16.
+ * Created by jamesbrookssoft on 11/06/16.
  */
 //@formatter:off
 data class Movie(

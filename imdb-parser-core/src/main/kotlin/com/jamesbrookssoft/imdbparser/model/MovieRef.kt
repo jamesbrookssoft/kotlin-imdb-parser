@@ -1,7 +1,7 @@
-package com.preslavrachev.imdbparser.model
+package com.jamesbrookssoft.imdbparser.model
 
 /**
- * Created by preslavrachev on 04/07/16.
+ * Created by jamesbrookssoft on 04/07/16.
  */
 data class MovieRef(
         val id: String,

@@ -1,11 +1,11 @@
-package com.preslavrachev.imdbparser.cli
+package com.jamesbrookssoft.imdbparser.cli
 
 import com.beust.jcommander.JCommander
-import com.preslavrachev.imdbparser.ImdbParser
+import com.jamesbrookssoft.imdbparser.ImdbParser
 
 
 /**
- * Created by preslavrachev on 12/06/16.
+ * Created by jamesbrookssoft on 12/06/16.
  */
 fun main(args: Array<String>) {
     val settings = Settings();
